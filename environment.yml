@@ -1,14 +1,12 @@
-name: qm4pp
+name: qm4pp-binder
 channels:
     - conda-forge
     - defaults
 dependencies:
-  - numpy
-  - seaborn
+  - libpysal
+  - mapclassify
   - statsmodels
-  - jupyterlab
   - descartes
-  - pysal
   - geopandas
   - pip
   - pip:
