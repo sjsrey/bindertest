@@ -1,0 +1,16 @@
+name: qm4pp
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+  - numpy
+  - seaborn
+  - statsmodels
+  - jupyterlab
+  - descartes
+  - pysal
+  - geopandas
+  - pip
+  - pip:
+    - jupyter-book
+    - lxml
